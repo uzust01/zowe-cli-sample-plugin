@@ -26,7 +26,7 @@ import { ErrorHandlerDefinition } from "./error_handler/ErrorHandler.definition"
  */
 const FailDefinition: ICommandDefinition = {
     name: "fail",
-    summary: "Perform \"the fail [action]\" on some [objects]",
+    summary: "Performs \"the fail [action]\" on some [objects]",
     description: "[actions] in Zowe CLI are groups of commands. [actions] are always verbs. " +
         "For example, for command \"zowe zos-files delete data-set\", the [action] is \"delete\".\n\n" +
         "For this action (\"fail\") we will fail handlers.",
